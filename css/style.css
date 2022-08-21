@@ -48,4 +48,12 @@ a:hover img {
   -ms-translation: all 0.3s;
   transition: all 0.3s;
 }
+
+.l-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
 /*# sourceMappingURL=style.css.map */
