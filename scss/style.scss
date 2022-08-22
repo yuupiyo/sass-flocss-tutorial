@@ -1,6 +1,12 @@
+@charset "UTF-8";
+
 // foundation
-@use "foundation/base";
+@use "./foundation/base";
 @use "./foundation/variable";
 
 // layout
-@use "layout/header";
+@use "./layout/header";
+
+// object
+// component
+@use "./object/component/inner"
