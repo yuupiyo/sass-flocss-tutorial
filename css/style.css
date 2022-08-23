@@ -66,6 +66,21 @@ a:hover img {
   max-width: 40%;
 }
 
+.c-button {
+  display: inline-block;
+  padding: 3px 20px;
+  color: #fff;
+  background-color: #f99f48;
+  border: solid 2px #f99f48;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.c-button:hover {
+  color: #f99f48;
+  background-color: #fff;
+}
+
 .c-inner {
   max-width: 1220px;
   margin: 0 auto;

@@ -1,0 +1,17 @@
+@use "../../foundation/variable" as v;
+
+.c-button {
+  display: inline-block;
+  padding: 3px 20px;
+  color: v.$color-base;
+  background-color: v.$color-accent;
+  border: solid 2px v.$color-accent;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    color: v.$color-accent;
+    background-color: v.$color-base;
+  }
+}
