@@ -112,4 +112,28 @@ a:hover img {
   box-shadow: -6px 6px 10px -2px #555, 0 0 3px #555;
   border-radius: 3px;
 }
+@media screen and (min-width: 750px) {
+  .p-fv__content {
+    flex-direction: row;
+    padding: 60px 0;
+  }
+  .p-fv__content figcaption {
+    flex: 2;
+  }
+  .p-fv__content h1 {
+    font-size: 5.6rem;
+  }
+  .p-fv__content h1 .text-100 {
+    font-size: 10rem;
+  }
+  .p-fv__content h1 .text-96 {
+    font-size: 9.6rem;
+  }
+  .p-fv__content h1 .text-80 {
+    font-size: 8rem;
+  }
+  .p-fv__content p {
+    font-size: 2.4rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
