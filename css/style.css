@@ -87,6 +87,20 @@ a:hover img {
   padding: 10px 30px;
 }
 
+.c-section {
+  padding: 50px 0 90px;
+  background-color: #f6fff7;
+}
+.c-section:nth-of-type(odd) {
+  background-color: #fff;
+}
+.c-section__title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 38px;
+}
+
 .p-fv {
   background-color: #1b7c26;
   color: #fff;
@@ -179,20 +193,6 @@ a:hover img {
   font-weight: 900;
   position: absolute;
   left: 0;
-}
-
-.c-section {
-  padding: 50px 0 90px;
-  background-color: #f6fff7;
-}
-.c-section:nth-of-type(odd) {
-  background-color: #fff;
-}
-.c-section__title {
-  text-align: center;
-  font-size: 2.8rem;
-  font-weight: bold;
-  margin-bottom: 38px;
 }
 
 .u-inline-block {

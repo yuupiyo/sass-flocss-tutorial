@@ -11,11 +11,13 @@
 // component
 @use "./object/component/button";
 @use "./object/component/inner";
+@use "./object/component/section";
 
 // project
 @use "./object/project/fv";
 @use "./object/project/theme";
-@use "./object/component/section";
+@use "./object/project/solution";
+
 
 // utility
 @use "./object/utility/display";
