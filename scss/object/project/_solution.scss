@@ -1,0 +1,12 @@
+@use "../../foundation/variable" as v;
+
+.p-solution {
+
+  &__lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 10px;
+  }
+}

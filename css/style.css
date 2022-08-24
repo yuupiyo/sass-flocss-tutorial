@@ -195,6 +195,14 @@ a:hover img {
   left: 0;
 }
 
+.p-solution__lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  gap: 10px;
+}
+
 .u-inline-block {
   display: inline-block;
 }
