@@ -1,0 +1,17 @@
+@use "../../foundation/variable" as v;
+
+.p-theme {
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 32px;
+    img {
+      width: 420px;
+      height: 320px;
+      object-fit: cover;
+    }
+  }
+}
