@@ -152,6 +152,14 @@ a:hover img {
   }
 }
 
+.c-section {
+  padding: 50px 0 90px;
+  background-color: #f6fff7;
+}
+.c-section:nth-of-type(odd) {
+  background-color: #fff;
+}
+
 .u-inline-block {
   display: inline-block;
 }

@@ -1,0 +1,9 @@
+@use "../../foundation/variable" as v;
+
+.c-section {
+  padding: 50px 0 90px;
+  background-color: v.$color-main-100;
+  &:nth-of-type(odd) {
+    background-color: v.$color-base;
+  }
+}
