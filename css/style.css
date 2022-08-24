@@ -218,6 +218,11 @@ a:hover img {
   padding: 10px 16px;
 }
 
+.p-faq__content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .u-inline-block {
   display: inline-block;
 }
