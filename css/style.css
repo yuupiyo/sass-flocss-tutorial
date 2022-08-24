@@ -202,6 +202,21 @@ a:hover img {
   align-items: stretch;
   gap: 10px;
 }
+.p-solution__list {
+  text-align: center;
+  font-weight: bold;
+  background-color: #efefef;
+  border-radius: 4px;
+}
+.p-solution__list img {
+  width: 320px;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.p-solution__list p {
+  padding: 10px 16px;
+}
 
 .u-inline-block {
   display: inline-block;
