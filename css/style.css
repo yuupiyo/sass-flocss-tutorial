@@ -165,6 +165,21 @@ a:hover img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.p-theme__lists {
+  font-size: 2rem;
+}
+.p-theme__lists li {
+  position: relative;
+  padding-left: 24px;
+  margin: 10px;
+}
+.p-theme__lists li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+}
 
 .c-section {
   padding: 50px 0 90px;

@@ -14,4 +14,20 @@
       object-fit: cover;
     }
   }
+
+  &__lists {
+    font-size: 2rem;
+    li {
+      position: relative;
+      padding-left: 24px;
+      margin: 10px;
+      &::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f00c";
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
 }
