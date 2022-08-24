@@ -159,6 +159,12 @@ a:hover img {
 .c-section:nth-of-type(odd) {
   background-color: #fff;
 }
+.c-section__title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 38px;
+}
 
 .u-inline-block {
   display: inline-block;
