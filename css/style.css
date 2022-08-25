@@ -288,6 +288,12 @@ a:hover img {
   }
 }
 
+.p-cv__content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .u-inline-block {
   display: inline-block;
 }
