@@ -252,6 +252,11 @@ a:hover img {
   right: 3%;
   transition: all 0.4s;
 }
+.p-faq__answer {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
 
 .u-inline-block {
   display: inline-block;

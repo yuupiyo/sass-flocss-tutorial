@@ -38,4 +38,10 @@
       transition: all 0.4s;
     }
   }
+
+  &__answer {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: v.$color-base;
+  }
 }
