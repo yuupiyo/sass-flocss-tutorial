@@ -293,6 +293,17 @@ a:hover img {
   margin: 0 auto;
   text-align: center;
 }
+.p-cv .c-button {
+  display: block;
+  margin: 10px auto;
+  font-size: 2rem;
+  border: 5px solid #f99f48;
+}
+@media screen and (min-width: 750px) {
+  .p-cv .c-button .c-button {
+    font-size: 3.2rem;
+  }
+}
 
 .u-inline-block {
   display: inline-block;

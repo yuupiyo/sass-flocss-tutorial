@@ -6,4 +6,17 @@
     margin: 0 auto;
     text-align: center;
   }
+
+  .c-button {
+    display: block;
+    margin: 10px auto;
+    font-size: 2rem;
+    border: 5px solid v.$color-accent;
+
+    @include v.pc {
+      .c-button {
+        font-size: 3.2rem;
+      }
+    }
+  }
 }
