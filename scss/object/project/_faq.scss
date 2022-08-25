@@ -44,4 +44,26 @@
     margin-bottom: 20px;
     background-color: v.$color-base;
   }
+
+  &__details[open] {
+    .p-faq__summary {
+      background-color: v.$color-main-300;
+      &::after {
+        transform: rotate(45deg);
+      }
+    }
+    .p-faq__answer {
+      animation: fadeIn 0.5s ease;
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        100% {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    }
+  }
 }

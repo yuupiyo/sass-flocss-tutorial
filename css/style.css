@@ -257,6 +257,36 @@ a:hover img {
   margin-bottom: 20px;
   background-color: #fff;
 }
+.p-faq__details[open] .p-faq__summary {
+  background-color: #6ebe79;
+}
+.p-faq__details[open] .p-faq__summary::after {
+  transform: rotate(45deg);
+}
+.p-faq__details[open] .p-faq__answer {
+  -webkit-animation: fadeIn 0.5s ease;
+          animation: fadeIn 0.5s ease;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 
 .u-inline-block {
   display: inline-block;
