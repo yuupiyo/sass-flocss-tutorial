@@ -76,6 +76,15 @@ a:hover img {
   align-items: flex-end;
   padding: 30px 0;
 }
+.l-footer__lists {
+  display: flex;
+  gap: 10px;
+  padding: 0 0 30px;
+}
+.l-footer__lists a {
+  color: #fff;
+  text-decoration: none;
+}
 
 .c-button {
   display: inline-block;
