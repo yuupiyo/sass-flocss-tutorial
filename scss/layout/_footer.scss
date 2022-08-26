@@ -3,4 +3,11 @@
 .l-footer {
   background-color: v.$color-black;
   color: v.$color-base;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px 0;
+  }
 }

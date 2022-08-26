@@ -70,6 +70,12 @@ a:hover img {
   background-color: #333;
   color: #fff;
 }
+.l-footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 30px 0;
+}
 
 .c-button {
   display: inline-block;
