@@ -66,6 +66,11 @@ a:hover img {
   max-width: 40%;
 }
 
+.l-footer {
+  background-color: #333;
+  color: #fff;
+}
+
 .c-button {
   display: inline-block;
   padding: 3px 20px;
